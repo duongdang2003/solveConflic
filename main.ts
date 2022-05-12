@@ -1,3 +1,6 @@
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    music.playMelody("E A F G E G B D ", 120)
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     game.setDialogTextColor(9)
     scene.setBackgroundImage(img`
