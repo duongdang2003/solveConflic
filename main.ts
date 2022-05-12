@@ -1,3 +1,6 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    game.setDialogTextColor(9)
+})
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -121,3 +124,19 @@ scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     `)
 game.splash("Stupid pham duy khoa")
+game.splash("stupid khoa pham")
+music.jumpUp.loop()
+music.baDing.loop()
+music.playTone(262, music.beat(BeatFraction.Half))
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
+music.baDing.loop()
